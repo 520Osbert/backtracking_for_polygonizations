@@ -232,6 +232,6 @@ class BT_polygonalization:
 		
 '''
 bt = BT_polygonalization(3,3, [str(i) for i in range(9)])
-bt.BT_search() # Run backtracking search
-print (bt.polygons) # Print out the # of polygonizations
+bt.BT_search() 							# Run backtracking search
+print (bt.polygons) 						# Print out the # of polygonizations
 '''
